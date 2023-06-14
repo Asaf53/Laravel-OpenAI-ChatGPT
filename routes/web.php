@@ -18,9 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('chat', [chatController::class, 'index'])->name('chat');
-// Route::post('gatime', [chatController::class, 'gptPromt'])->name('test');
-
-
 Route::get('gatime', [chatController::class, 'gptPromt'])->name('test');
 Route::post('gatime', [chatController::class, 'gptPromt'])->name('test');
