@@ -9,7 +9,7 @@
 
 ## About Laravel
 
-Singel Page Form Submit with ChatGPT-3 
+Form submission and receipt on the same page with Chat GPT-3 
 
 ## License
 
